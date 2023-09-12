@@ -1,11 +1,70 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="sidebar">
+        <div class="backgroundImg"></div>
+        <div class="logo">
+            <img class="logo_img" src="images/odin-lined.png" alt="">
+            <p>ODIN</p>
+        </div>
+        <p class="footer">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+    </div>
+    <div class="main">
+        <div class="header">
+            <p class="head">This is not a real online service! You know you need something like this in your life to
+                help
+                you realize
+                your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class="head">You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="form_section">
+            <p>Let's do this!</p>
+            <form id="form" action="">
+                <label for="FIRST_NAME">FIRST NAME
+                    <input type="text" name="FIRST_NAME" id="FIRST_NAME">
+                </label>
+
+                <label for="LAst_NAME">LAST NAME
+                    <input type="text" name="LAst_NAME" id="LAst_NAME">
+                </label>
+
+                <label for="EMAIL">EMAIL
+                    <input type="email" name="EMAIL" id="EMAIL" required>
+                </label>
+
+                <label for="PHONE_NUMBER">PHONE NUMBER
+                    <input type="number" name="PHONE_NUMBER" id="PHONE_NUMBER">
+                </label>
+
+                <label for="PASSWORD">PASSWORD
+                    <input type="password" name="PASSWORD" id="PASSWORD" required>
+
+                </label>
+
+                <label for="CONFIRM_PASSWORD">CONFIRM PASSWORD
+                    <input type="password" name="CONFIRM_PASSWORD" id="CONFIRM_PASSWORD" required>
+
+                </label>
+            </form>
+        </div>
+        <div class="submit_section">
+            <button form="form" type="submit" id="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+
+    </div>
+
+
 </body>
+<script src="script.js"></script>
+
 </html>
